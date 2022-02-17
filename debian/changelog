@@ -1,0 +1,88 @@
+gpxsee (10.4-1) unstable; urgency=low
+  * packaging for maemo leste
+
+ -- Christian Weniger <less_to_space@web.de>  Wed, 16 Feb 2022 12:36:24 +0100
+
+gpxsee (0.5.18maemo1) unstable; urgency=low
+  * merged with upstream 5.18
+  * fixed close bug
+  * fixed messageboxes
+  * updated key list
+
+ -- Christian Weniger <less_to_space@web.de>  Mon, 01 Oct 2018 02:36:24 +0100
+
+gpxsee (0.5.13maemo1) unstable; urgency=low
+  * merged with upstream 5.13
+  * digital zoom is available
+
+ -- Christian Weniger <less_to_space@web.de>  Sun, 30 Sep 2018 20:40:44 +0100
+
+gpxsee (0.5.6maemo2) unstable; urgency=low
+  * corrected desktop file
+
+ -- Christian Weniger <less_to_space@web.de>  Wed, 23 May 2018 13:30:44 +0100
+
+gpxsee (0.5.6maemo1) unstable; urgency=low
+  * merged with upstream 5.6
+
+ -- Christian Weniger <less_to_space@web.de>  Sat, 19 May 2018 13:20:14 +0100
+
+gpxsee (0.4.16maemo1) unstable; urgency=low
+  * merged with upstream 4.16
+
+ -- Christian Weniger <less_to_space@web.de>  Sun, 01 Apr 2018 19:20:14 +0100
+
+gpxsee (0.4.9maemo1) unstable; urgency=low
+  * merged with upstream 4.9
+
+ -- Christian Weniger <less_to_space@web.de>  Mon, 17 Jul 2017 20:27:14 +0100
+
+gpxsee (0.4.1maemo1) unstable; urgency=low
+  * merged with upstream 4.1
+  * pdf export process indicator
+  * pdf export free memory
+  * no more rescale when toggle (status,tool,graph)
+  * set ssl fixed to TSLv1
+
+ -- Christian Weniger <less_to_space@web.de>  Tue, 04 Apr 2017 20:51:14 +0100
+
+gpxsee (0.3.9maemo1) unstable; urgency=low
+  * Fixed broken POI radius computation.
+  * Added moving time info.
+  * Improved pause detection/handling.
+  * removed translation
+  * close button now visible
+
+ -- Christian Weniger <less_to_space@web.de>  Sat, 11 Mar 2017 13:51:14 +0100
+
+gpxsee (0.3.8maemo1) unstable; urgency=low
+  * added hide statusbar
+  * added hide map widget
+  * removed virtual qsplitter
+  * added autoload last file
+  * added shortcut for toolbar
+  * fixed poi loading and menu
+  * updated keyboard controls
+  * fixed zooming behavior
+
+ -- Christian Weniger <less_to_space@web.de>  Sun, 29 Jan 2017 13:51:14 +0100
+ 
+gpxsee (0.3.7maemo2) unstable; urgency=low
+  * added support for ssl connection
+
+ -- Christian Weniger <less_to_space@web.de>  Tue, 24 Jan 2017 23:48:14 +0100
+
+gpxsee (0.3.7maemo1) unstable; urgency=low
+  * new downstream version
+  * fixed color for line style
+  * fixed export units
+  * chaned qreal to double calculation
+  * opengl set as default
+
+ -- Christian Weniger <less_to_space@web.de>  Mon, 23 Jan 2017 23:08:14 +0100
+
+gpxsee (0.3.5maemo1) unstable; urgency=low
+  * maemo initial release
+
+ -- Christian Weniger <less_to_space@web.de>  Sun, 08 Jan 2017 22:30:14 +0100
+

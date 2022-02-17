@@ -1,0 +1,74 @@
+Source: gpxsee
+Section: user/navigation
+Priority: extra
+Maintainer: Christian Weniger <less_to_space@web.de>
+Build-Depends: debhelper (>= 10),
+    qtbase5-dev,
+    qtbase5-dev-tools,
+    qt5-qmake,
+    qt5-default,
+    libqt5x11extras5-dev,
+    libqt5svg5-dev,
+    libqt5maemo5-dev,
+    qtpositioning5-dev,
+    qtbase5-private-dev,
+    libx11-dev,
+    cdbs
+Standards-Version: 3.9.6
+Homepage: https://sites.google.com/site/mihplaesu/projects/mihphoto
+XSBC-Bugtracker: https://github.com/maemo-leste-extras/gpxsee/issues
+Vcs-Git: https://github.com/maemo-leste-extras/gpxsee/
+Vcs-Browser: https://github.com/maemo-leste-extras/gpxsee/
+
+Package: gpxsee
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends},
+    libqt5gui5,
+    libqt5widgets5,
+    libqt5core5a,
+    libqt5positioning5,
+    qt5-style-plugins 
+Description: GPXSee is a GPS log file viewer
+ GPXSee is a Qt-based GPS log file viewer and analyzer that supports GPX, TCX, FIT, KML, NMEA, IGC, CUP, SIGMA SLF,
+ Suunto SML, LOC, GeoJSON, OziExplorer (PLT, RTE, WPT), Garmin GPI&CSV, TomTom OV2&ITN, ONmove OMD/GHP, TwoNav (TRK, RTE, WPT)
+ and geotagged JPEG files.
+XB-Maemo-Display-Name: GPXSee
+XB-Maemo-Icon-26: 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

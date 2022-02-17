@@ -504,7 +504,7 @@ win32 {
 }
 
 unix:!macx {
-    isEmpty(PREFIX):PREFIX = /usr/local
+    isEmpty(PREFIX):PREFIX = /usr
 
     maps.files = $$files(pkg/maps/*)
     maps.path = $$PREFIX/share/gpxsee/maps
@@ -517,7 +517,7 @@ unix:!macx {
     icon.files = $$files(icons/app/hicolor/*)
     icon.path = $$PREFIX/share/icons/hicolor
     desktop.files = pkg/gpxsee.desktop
-    desktop.path = $$PREFIX/share/applications
+    desktop.path = $$PREFIX/share/applications/hildon
     mime.files = pkg/gpxsee.xml
     mime.path = $$PREFIX/share/mime/packages
     target.path = $$PREFIX/bin
